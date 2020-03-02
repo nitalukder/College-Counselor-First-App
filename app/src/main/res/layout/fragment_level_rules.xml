@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LevelRulesFragment">
+
+
+        <LinearLayout
+            android:id="@+id/grp_btns_home"
+            style="@style/rules_pop_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/btn_rules"
+                style="@style/lbl_rules"
+                android:text="@string/rules" />
+
+            <LinearLayout
+                style="@style/rules"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    style="@style/rules_single"
+                    android:text="@string/rules_1" />
+
+                <TextView
+                    style="@style/rules_single"
+                    android:text="@string/rules_2" />
+
+                <TextView
+                    style="@style/rules_single"
+                    android:text="@string/rules_3" />
+
+                <TextView
+                    style="@style/rules_single"
+                    android:text="@string/rules_4" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_ok"
+                style="@style/ok"
+                android:text="@string/ok" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="Complete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

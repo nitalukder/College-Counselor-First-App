@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.collegecounselor.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_levelFragment"
+            app:destination="@id/levelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelFragment"
+        android:name="com.example.collegecounselor.LevelFragment"
+        android:label="LevelFragment" >
+        <action
+            android:id="@+id/action_levelFragment_to_levelRulesFragment"
+            app:destination="@id/levelRulesFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_levelRulesFragment2"
+            app:destination="@id/levelRulesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.example.collegecounselor.QuestionFragment"
+        android:label="fragment_question"
+        tools:layout="@layout/fragment_question" />
+    <fragment
+        android:id="@+id/levelRulesFragment"
+        android:name="com.example.collegecounselor.LevelRulesFragment"
+        android:label="LevelRulesFragment" >
+        <action
+            android:id="@+id/action_levelRulesFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
+    </fragment>
+</navigation>

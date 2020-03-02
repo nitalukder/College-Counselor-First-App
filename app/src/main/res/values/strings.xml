@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">College Counselor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_play">PLAY</string>
+    <string name="btn_leaderboard">LEADERBOARD</string>
+    <string name="btn_setting">SETTINGS</string>
+    <string name="sign_in">Sign In</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="lbl_level">Level</string>
+    <string name="txt_level_1">Level 1</string>
+    <string name="txt_highest_score">Highest Score:</string>
+    <string name="txt_no_of_question">No of Question:</string>
+    <string name="rules_1">1.\t Answer as fast as you can.</string>
+    <string name="rules_2">2.\t You can use only 2 Hint.</string>
+    <string name="rules_3">3.\t For each Correct Answer \n\t You will get 10 Mark.</string>
+    <string name="rules_4">4.\t For each Wrong Answer \n\t You will loss 5 Mark.</string>
+    <string name="rules">Rules</string>
+    <string name="ok">OK</string>
+
+
+    <string name="toast_message">Hint is Over</string>
+
+</resources>
